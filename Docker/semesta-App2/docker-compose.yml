@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    container_name: api_semesta2
+    ports:
+      - '3001:3001'
+    restart: always
+    volumes:
+      - 'api_volume2:/usr/src/app'
+    networks:
+      - semesta-app1_api_network
+  
+volumes:
+  api_volume2:
+networks:
+  semesta-app1_api_network:
+    external: true

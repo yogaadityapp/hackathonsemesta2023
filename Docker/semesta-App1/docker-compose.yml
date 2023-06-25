@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  api:
+    build: .
+    container_name: api_semesta
+    ports:
+      - '3000:3000'
+    restart: always
+    volumes:
+      - 'api_volume:/usr/src/app'
+    env_file:
+      - '.env'
+    networks:
+      - api_network
+  
+volumes:
+  api_volume:
+networks:
+  api_network:
+    driver: bridge
