@@ -4,9 +4,10 @@
 ### ASAL SEKOLAH : SMK TELKOM MALANG
 
 
-Berikut penjelasan terkait 2 project terpisah yang dikerjakan dalam HACKATHON ini :
+##### Berikut penjelasan terkait 2 project terpisah yang dikerjakan dalam HACKATHON ini :
 [PROJECT 1]
-Pembuatan Topologi infrastruktur jaringan SEVIMA dengan membuat data center yang diharapkan mampu menunjang performa aplikasi maupun backup sehingga waktu yang tidak terlalu lama.Oleh karena itu saya sebagai System Administrator membuat design jaringan dengan menerapkan beberapa macam layer diantaranya EDGE,CORE,DISTRIBUTION,ACCESS DAN DATA CENTER. Dimana pada masing-masing layer tersebut memiliki tugas masing-masing untuk mendistribusikan data maupun aplikasi ke DATA CENTER, sehingga performa akses aplikasi dapat berjalan secara optimal.
+  Pembuatan Topologi infrastruktur jaringan SEVIMA dengan membuat data center yang diharapkan mampu menunjang performa aplikasi maupun backup sehingga waktu yang tidak terlalu lama.Oleh karena itu saya sebagai System Administrator membuat design jaringan dengan menerapkan beberapa macam layer diantaranya EDGE,CORE,DISTRIBUTION,ACCESS DAN DATA CENTER. Dimana pada masing-masing layer tersebut memiliki tugas masing-masing untuk mendistribusikan data maupun aplikasi ke DATA CENTER, sehingga performa akses aplikasi dapat berjalan secara optimal.
+   
   Dalam Jaringan ini terdapat configuration yang diimplementasikan dimasing-masing layer diantaranya :
 - EDGE(Router), bertugas sebagai link utama yang menghubungkan antara KANTOR PUSAT SEVIMA dan DATA CENTER. Di layer inilah proses routing antar ip dan firewall (ACL) terjadi.
 - CORE(Switch L3), bertugas sebagai mengatur jaringan seperti routing ke UPLINK, membuat TRUNK to DOWN-LINK hingga VLAN MANAGEMENT $ DHCP. Di Core juga diterapkan Hot Standby Router Protocol (HSRP) sebagai redudancy / backup link apabila terjadi Disconnected LINK sehingga tidak terjadinya DOWN-TIME
