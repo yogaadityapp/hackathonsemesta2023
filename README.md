@@ -5,7 +5,9 @@
 
 
 ##### Berikut penjelasan terkait 2 project terpisah yang dikerjakan dalam HACKATHON ini :
+
 [PROJECT 1]
+
   Pembuatan Topologi infrastruktur jaringan SEVIMA dengan membuat data center yang diharapkan mampu menunjang performa aplikasi maupun backup sehingga waktu yang tidak terlalu lama.Oleh karena itu saya sebagai System Administrator membuat design jaringan dengan menerapkan beberapa macam layer diantaranya EDGE,CORE,DISTRIBUTION,ACCESS DAN DATA CENTER. Dimana pada masing-masing layer tersebut memiliki tugas masing-masing untuk mendistribusikan data maupun aplikasi ke DATA CENTER, sehingga performa akses aplikasi dapat berjalan secara optimal.
    
   Dalam Jaringan ini terdapat configuration yang diimplementasikan dimasing-masing layer diantaranya :
