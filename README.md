@@ -1,4 +1,6 @@
-# hackathonsemesta2023
-Repository Hackathon semesta 2023 - SysAdmin- Yoga Aditya Purnama Putra
+# HACKATHON SYSTEM ADMINISTRATOR-SEMESTA 2023
+
+NAMA : YOGA ADITYA PURNAMA PUTRA
+ASAL SEKOLAH : SMK TELKOM MALANG
 
 Detail Penjelasan Topologi Jaringan Cisco Packet Tracer
