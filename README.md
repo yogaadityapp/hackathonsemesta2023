@@ -18,3 +18,16 @@
 - DATA CENTER, adalah pusat berkumpulnya data seperti layaknya Cloud, dimana dalam desain ini dibuat terpisah sehingga proses data yang diharapkan juga sama dengan implementasi dilapangan. Selain itu dengan dibuat terpisah bisa menerapkan sistem protection jaringan baik intranet maupun ekstranet.
 
 [PROJECT 2]
+
+  Pada Project kedua ini saya sebagai System Administrator dituntut untuk melakukan handover terhadap problem dari Indonesia Swasembada Corp yaitu melakukan deployment, testing dan build web aplikasi secara otomatis yang sudah ada. Terdapat 2 web aplikasi yang berjalan. Akan tetapi dalam project ini belum dilakukan building aplikasi sehingga diperlukannya beberapa langkah untuk melakukannya. Disini saya menggunakan Automation Dockerizing dalam pengetesan dan building aplikasi menjadi sebuah image dan container. Dimana fungsi docker image (Dockerfile) digunakan untuk menentukan langkah-langkah apa saja yang dilakukan untuk menjalankan aplikasi yang telah dibuat,Baik cara download paket, install paket hingga menjalankan file testing yang telah dipersiapkan sebelumnya. Kemudian dibuatlah file yang bernama Dockercompose digunakan untuk membuat server berupa container. Dalam file inilah ditentukan apa saja yang perlu di install dalam container. Bahkan diperlukan juga network untuk mengkoneksikan 2 container aplikasi dan aplikasi 2
+
+Berikut cara running file yang telah saya buat dalam project ini:
+
+- Masukan file docker-compose.yml, Dockerfile dan .env pada folder Aplikasi-1 kemudian masukan juga file docker-compose.yml dan Dockerfile
+- Kemudian buatkan docker network pada docker engine yang anda buat dengan nama sevima_app1_api_network
+- jika sudah selesai Build aplikasi 1 dan aplikasi 2
+- Kemudian masuk pada web browser dan ketik https://localhost:3000 untuk mengakses aplikasi 1 dan kemudian ketik https://localhost:3000/aboutus untuk akses aplikasi 2.
+  Note : aplikasi 2 juga dapat diakses melalui port 3001
+
+
+###TERIMA KASIH
